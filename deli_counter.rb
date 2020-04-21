@@ -6,7 +6,7 @@ def line(katz_deli)
     i = 0 
     new_customer = []
     until i == katz_deli.length
-    new_customer<< "#{i++}. #{katz_deli[i]}"
+    new_customer<< "#{i + 1}. #{katz_deli[i]}"
     i += 1
   end
   puts "The line is currently: " << new_customer.join(" ")
