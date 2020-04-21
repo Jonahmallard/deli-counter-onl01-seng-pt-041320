@@ -12,4 +12,6 @@ def line(katz_deli)
   puts "The line is currently: " << new_customer.join(" ")
 end
 end
+
+def
     
